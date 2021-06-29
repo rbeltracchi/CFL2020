@@ -9,7 +9,7 @@ boton.addEventListener("click",function(e){
 
 function lanzarDados (longitud){
     let array=[];
-    let cantidad=0;
+    let cantidad=3;
     for (let i=0; i<longitud;i++){
         let dado1= Math.floor(Math.random() * (7-1)) +1;
         let dado2= Math.floor(Math.random() * (7-1)) +1;
